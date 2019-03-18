@@ -24,11 +24,11 @@ class Hospital:
 
     def Input(self):
         self.sno=input("Enter Serial number:")
-        self.name=raw_input("Enter Patinet's Name:")
-        self.age=input("Enter Patinet's Age:")
-        self.sex=raw_input("Enter Patinet's Sex (Male/Female):")
-        self.height=input("Enter Patinet's Height:")
-        self.weight=input("Enter Patinet's Weight(In Kgs):")
+        self.name=raw_input("Enter Patient's Name:")
+        self.age=input("Enter Patient's Age:")
+        self.sex=raw_input("Enter Patient's Sex (Male/Female):")
+        self.height=input("Enter Patient's Height:")
+        self.weight=input("Enter Patient's Weight(In Kgs):")
         self.bgroup=raw_input("Enter Patient's Blood Group:")
         self.fname=raw_input("Enter Fathers Name:")
         self.address=raw_input("Enter Address:")
@@ -443,7 +443,6 @@ while True:
         print ("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ " )
         print ("\n")
         print ("WHAT DO YOU WANT TO MODIFY:")
-        print 
         print ("1.PATIENT'S NAME")
         print ("2.PATIENT'S AGE")
         print ("3.PATIENT'S SEX")
@@ -494,11 +493,3 @@ while True:
         time.sleep(.6)
         print (".")
         print("\n\n\n~~~~~~~~~~~~~~~~~~~~WRONG CHOICE!!!~~~~~~~~~~~~~~~~~~~\n\n\n")
-        
-
-        
-
-
-
-        
-        
